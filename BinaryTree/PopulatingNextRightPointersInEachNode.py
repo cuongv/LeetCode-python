@@ -25,10 +25,11 @@ Explanation: Given the above perfect binary tree (Figure A), your function shoul
 The serialized output is in level order as connected by the next pointers, with '#' signifying the end of each level.
 
 Constraints:
-
 The number of nodes in the given tree is less than 4096.
 -1000 <= node.val <= 1000
 
+#Solution BFS travel tree by levels
+         
 """
 # Definition for a Node.
 class Node(object):
