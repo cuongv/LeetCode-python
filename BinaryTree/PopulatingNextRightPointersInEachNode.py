@@ -1,4 +1,4 @@
-#https://leetcode.com/explore/learn/card/data-structure-tree/133/conclusion/994/
+#https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 
 You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 
