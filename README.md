@@ -1,5 +1,5 @@
 # LeetCode-python
-Solution for Leetcode questions in Python
+Solutions for Leetcode questions in Python
 
 BinaryTree:
   
