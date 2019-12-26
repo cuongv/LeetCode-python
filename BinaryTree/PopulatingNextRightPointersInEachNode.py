@@ -28,7 +28,13 @@ Constraints:
 The number of nodes in the given tree is less than 4096.
 -1000 <= node.val <= 1000
 
-#Solution BFS travel tree by levels
+#Solution 1: BFS travel tree by levels -> O(n)
+#Solution 2:
+ """
+ We only move on to the level N+1 when we are done establishing the next pointers for the level N.
+ Since we have access to all the nodes on a particular level via the next pointers, 
+ we can use these next pointers to establish the connections for the next level or the level containing their children.
+ """
          
 """
 # Definition for a Node.
@@ -39,9 +45,27 @@ class Node(object):
         self.right = right
         self.next = next
 """
-from collections import deque
 
+from collections import deque
 class Solution(object):
+    #O(1) solution
+    def connect(self, root):
+        if not root:
+            return None
+        leftMost = root
+        while leftMost.left:
+            node = leftMost
+            node.left.next = node.right
+            if node.next:
+                node.right.next = node.next.left
+                node = node.next
+            else:
+                leftMost = leftMost.left
+        
+        return root
+    
+    #My O(n) solution
+    """
     def connect(self, root):
         if not root:
             return None
@@ -59,8 +83,9 @@ class Solution(object):
                     q.append(node.left)
                     q.append(node.right)
             prev = None
-        
         return root
+        """
+    
         """
         :type root: Node
         :rtype: Node
