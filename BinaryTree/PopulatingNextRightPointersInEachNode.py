@@ -53,14 +53,15 @@ class Solution(object):
         if not root:
             return None
         leftMost = root
+        node = leftMost
         while leftMost.left:
-            node = leftMost
             node.left.next = node.right
             if node.next:
                 node.right.next = node.next.left
                 node = node.next
             else:
                 leftMost = leftMost.left
+                node = leftMost
         
         return root
     
