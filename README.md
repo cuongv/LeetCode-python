@@ -8,3 +8,5 @@ BinaryTree:
   [Medium] https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
   
   [Medium] https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+
+  [Medium] https://leetcode.com/problems/design-circular-queue/
