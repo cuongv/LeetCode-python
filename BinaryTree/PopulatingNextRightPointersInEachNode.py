@@ -1,5 +1,5 @@
 #https://leetcode.com/explore/learn/card/data-structure-tree/133/conclusion/994/
-
+"""
 You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 
 struct Node {
@@ -29,7 +29,6 @@ Constraints:
 The number of nodes in the given tree is less than 4096.
 -1000 <= node.val <= 1000
 
-"""
 # Definition for a Node.
 class Node(object):
     def __init__(self, val=0, left=None, right=None, next=None):

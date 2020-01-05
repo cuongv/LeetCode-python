@@ -1,5 +1,6 @@
 #https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 
+"""
 Given inorder and postorder traversal of a tree, construct the binary tree.
 
 Note:
@@ -25,6 +26,7 @@ Return the following binary tree:
 #         self.val = x
 #         self.left = None
 #         self.right = None
+"""
 
 class Solution(object):
     def buildTree(self, inorder, postorder):

@@ -1,5 +1,6 @@
 #https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
+"""
 Given preorder and inorder traversal of a tree, construct the binary tree.
 
 Note:
@@ -16,6 +17,8 @@ Return the following binary tree:
   9  20
     /  \
    15   7
+
+"""
 
 #Solution: The root node is always in the beginning of preorder list.
 
