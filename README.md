@@ -20,3 +20,7 @@ Heap:
 BFS:
 
   [Medium] https://leetcode.com/problems/walls-and-gates/
+
+Stack:
+
+  [Easy] https://leetcode.com/problems/min-stack/
