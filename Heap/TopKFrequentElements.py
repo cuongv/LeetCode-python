@@ -22,8 +22,6 @@ class Solution(object):
     def topKFrequent(self, nums, k):
         dict = defaultdict(int)
 
-        dict2 = {}
-        print(dict2.get("dddd"))
         for no in nums:
             dict[no] += 1
 
