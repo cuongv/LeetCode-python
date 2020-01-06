@@ -12,3 +12,7 @@ BinaryTree:
 Queue:
 
   [Medium] https://leetcode.com/problems/design-circular-queue/
+
+Heap:
+
+  [Medium] https://leetcode.com/problems/top-k-frequent-elements/
